@@ -2700,13 +2700,14 @@ input, select, textarea {
 		list-style: disc;
 		margin: 0 0 2rem 0;
 		padding-left: 1rem;
-		list-style-position: inside;
+		
 	}
 
 		ul li {
 			list-style-type: disc;
 			padding-left: 0.5rem;
 			margin-left: 1em;
+			list-style-position: inside;
 		}
 
 		ul.alt {
