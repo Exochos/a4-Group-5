@@ -33,6 +33,10 @@ body {
 	line-height: 1;
 }
 
+footer.wrapper p a {
+	display: block;
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -2696,6 +2700,7 @@ input, select, textarea {
 		list-style: disc;
 		margin: 0 0 2rem 0;
 		padding-left: 1rem;
+		list-style-position: inside;
 	}
 
 		ul li {
